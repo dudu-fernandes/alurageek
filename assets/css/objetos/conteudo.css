@@ -1,31 +1,56 @@
 .container__conteudo {
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 .conteudo__cabecalho-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    margin: 1em 0;
-    width: 100%;
+  margin: 1em 0;
+  width: 100%;
 }
 
 .conteudo__titulo {
-    font-weight: 700;
-    font-size: 22px;
-    color: var(--cor-cinza);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--cor-cinza);
 }
 
 .conteudo__ver-tudo {
-    text-decoration: none;
+  text-decoration: none;
 
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--cor-azul);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--cor-azul);
 
-    padding-right: 1.2em;
+  padding-right: 1.2em;
 
-    background: url("../../img/icones/icone-seta.svg") no-repeat;
-    background-position: right;
+  background: url("../../img/icones/icone-seta.svg") no-repeat;
+  background-position: right;
+}
+
+.conteudo__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+
+  margin-bottom: 1em;
+}
+
+/* TODO - Layout mobile os cards 5 e 6 não aparecem */
+.card:nth-child(5),
+.card:nth-child(6) {
+  display: none;
+}
+
+
+
+
+/*? Responsividade Desktop */
+@media screen and (min-width: 1440px) {
+  .card:nth-child(5),
+  .card:nth-child(6) {
+    display: block;
+  }
 }

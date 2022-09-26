@@ -22,31 +22,31 @@
 
 /* Variáveis do projeto */
 :root {
-    /* Fonte */
-    --fonte-padrao: 'Raleway', sans-serif;
-    --tamanho-fonte: 16px;
+  /* Fonte */
+  --fonte-padrao: 'Raleway', sans-serif;
+  --tamanho-fonte: 16px;
 
-    /* Cores */
-    --cor-branca: #FFFFFF;
-    --cor-azul: #2A7AE4;
-    --cor-azul-opaco: #5595E9;
-    --cor-azul-claro: #EAF2FD;
-    --cor-cinza: #464646;
-    --cor-cinza-claro: #A2A2A2;
+  /* Cores */
+  --cor-branca: #FFFFFF;
+  --cor-azul: #2A7AE4;
+  --cor-azul-opaco: #5595E9;
+  --cor-azul-claro: #EAF2FD;
+  --cor-cinza: #464646;
+  --cor-cinza-claro: #A2A2A2;
 }
 
 body {
-    /* Padrões da página */
-    font-family: var(--fonte-padrao);
-    font-size: var(--tamanho-fonte);
-    color: var(--cor-cinza);
+  /* Padrões da página */
+  font-family: var(--fonte-padrao);
+  font-size: var(--tamanho-fonte);
+  color: var(--cor-cinza);
 
-    background-color: var(--cor-branca);
+  background-color: var(--cor-branca);
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
