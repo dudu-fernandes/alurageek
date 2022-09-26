@@ -1,0 +1,33 @@
+.container__banner {
+    padding: 1em;
+}
+
+.banner {
+    background-image:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(.jpg),
+        url("../../img/fotos/banner-promocao.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner__textos {
+    color: var(--cor-branca);
+}
+
+.banner__textos--titulo {
+    font-size: 22px;
+    font-weight: 700;
+
+    margin-top: 5em;
+}
+
+.banner__textos--subtitulo {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner__promocao-btn {
+    width: 45%;
+    margin-top: 1em;
+}

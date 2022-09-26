@@ -1,0 +1,31 @@
+.container__conteudo {
+    margin: 0 1em;
+}
+
+.conteudo__cabecalho-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1em 0;
+    width: 100%;
+}
+
+.conteudo__titulo {
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor-cinza);
+}
+
+.conteudo__ver-tudo {
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cor-azul);
+
+    padding-right: 1.2em;
+
+    background: url("../../img/icones/icone-seta.svg") no-repeat;
+    background-position: right;
+}

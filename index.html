@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME | AluraGeek</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME | AluraGeek</title>
+  <link rel="stylesheet" href="./assets/css/base/style.css">
 </head>
+
 <body>
-    
+  <header class="cabecalho">
+    <div class="container container__cabecalho">
+      <img src="./assets/img/Logo-alurageek-completo.svg" alt="AluraGeek" class="cabecalho__logo">
+      <button class="cabecalho__login-btn botao botao__negrito--transparente">Login</button>
+      <img src="./assets/img/icones/icone-lupa.svg" alt="Pesquisar produtos" class="cabecalho__barra-de-pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <!-- SESSÃO: banner de descontos e promoções  -->
+    <section class="banner">
+      <div class="container container__banner">
+        <div class="banner__textos">
+          <h1 class="banner__textos--titulo">Dezembro Promocional</h1>
+          <h3 class="banner__textos--subtitulo">Produtos selecionados com 33% de desconto</h3>
+        </div>
+        <a href="#" class="banner__promocao-btn botao botao__negrito--azul">Ver Consoles</a>
+      </div>
+    </section>
+
+    <!-- SESSÃO: Star Wars -->
+    <section class="conteudo">
+      <div class="container container__conteudo">
+        <div class="conteudo__cabecalho-card">
+          <h2 class="conteudo__titulo">Star Wars</h2>
+          <a href="#" class="conteudo__ver-tudo">Ver tudo</a>
+        </div>
+        <div class="conteudo__cards">
+
+          <!-- * Início de um card -->
+          <div class="card">
+            <img src="./assets/img/fotos/unsplash_6FDXGY9J6y4.png" alt="" class="card__imagem">
+            <div class="card__textos">
+              <p class="textos__titulo">Produto XYZ</p>
+              <p class="textos__subtitulo--preco">R$ 60,00</p>
+              <a href="#" class="card__ver-produto">Ver produto</a>
+            </div>
+          </div>
+          <!-- * Fim de um card -->
+          
+        </div>
+
+      </div>
+      </div>
+    </section>
+  </main>
+
 </body>
+
 </html>

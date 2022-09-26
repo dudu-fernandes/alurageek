@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__imagem {
+    margin-bottom: .5em;
+}
+
+.textos__titulo {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.textos__subtitulo--preco {
+    font-weight: 700;
+    font-size: 16px;
+
+    margin: .5em 0;
+}
+
+.card__ver-produto {
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cor-azul);
+}

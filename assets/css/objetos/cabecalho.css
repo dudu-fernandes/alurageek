@@ -1,0 +1,10 @@
+.container__cabecalho {
+    
+    padding: 1em;
+    margin: 0 1em;
+}
+
+.cabecalho__login-btn {
+    padding: 1em .75em;
+    width: 45%;
+}

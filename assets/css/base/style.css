@@ -1,0 +1,52 @@
+/* Componentes básicos para padronizar a página */
+@import url("./_reset.css");
+@import url("./_normalize.css");
+
+/* Imports externos para o projeto */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+
+
+/* Imports de COMPONENTES internos do projeto */
+@import url("../componentes/botoes.css");
+@import url("../componentes/card.css");
+
+/* Imports de OBJETOS internos do projeto */
+@import url("../objetos/cabecalho.css");
+@import url("../objetos/banner.css");
+@import url("../objetos/conteudo.css");
+
+
+
+
+
+/* Variáveis do projeto */
+:root {
+    /* Fonte */
+    --fonte-padrao: 'Raleway', sans-serif;
+    --tamanho-fonte: 16px;
+
+    /* Cores */
+    --cor-branca: #FFFFFF;
+    --cor-azul: #2A7AE4;
+    --cor-azul-opaco: #5595E9;
+    --cor-azul-claro: #EAF2FD;
+    --cor-cinza: #464646;
+    --cor-cinza-claro: #A2A2A2;
+}
+
+body {
+    /* Padrões da página */
+    font-family: var(--fonte-padrao);
+    font-size: var(--tamanho-fonte);
+    color: var(--cor-cinza);
+
+    background-color: var(--cor-branca);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

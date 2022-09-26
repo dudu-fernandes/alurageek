@@ -1,0 +1,64 @@
+.botao {
+  border: none;
+
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400z;
+  color: var(--cor-branca);
+
+  padding: 1em;
+  width: 100%;
+}
+
+/* 4 variantes para os botões c/ font-weight 400 */
+.botao--azul {
+  background-color: var(--cor-azul);
+}
+
+.botao--azul-opaco {
+  background-color: var(--cor-azul-opaco);
+}
+
+.botao--transparente {
+  background-color: transparent;
+  border: 2px solid var(--cor-azul);
+
+  color: var(--cor-azul);
+}
+
+.botao--transparente-azul {
+  background-color: var(--cor-azul-claro);
+  border: 2px solid var(--cor-azul);
+
+  color: var(--cor-azul);
+}
+
+
+/* 4 variantes para os botões c/ font-weight 600 - Seminegrito */
+.botao__negrito--azul {
+  font-weight: 600;
+  background-color: var(--cor-azul);
+}
+
+.botao__negrito--azul-opaco {
+  font-weight: 600;
+  background-color: var(--cor-azul-opaco);
+}
+
+.botao__negrito--transparente {
+  font-weight: 600;
+
+  background-color: transparent;
+  border: 2px solid var(--cor-azul);
+
+  color: var(--cor-azul);
+}
+
+.botao__negrito--transparente-azul {
+  font-weight: 600;
+
+  background-color: var(--cor-azul-claro);
+  border: 2px solid var(--cor-azul);
+
+  color: var(--cor-azul);
+}
