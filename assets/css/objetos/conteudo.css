@@ -45,9 +45,15 @@
 }
 
 
+/*? Responsividade Tablet 768px */
+@media screen and (min-width: 768px) {
+  .container__conteudo {
+    padding: 0 2em;
+  }
+}
 
 
-/*? Responsividade Desktop */
+/*? Responsividade Desktop 1440px*/
 @media screen and (min-width: 1440px) {
   .card:nth-child(5),
   .card:nth-child(6) {

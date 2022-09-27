@@ -3,34 +3,45 @@
 }
 
 .container__rodape {
+  display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  align-items: center;
 
-  padding: 1em;
+  margin: 1em;  
 }
 
 .rodape__institucional {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  margin: 1em auto;
 }
 
 .rodape__logo {
   width: 174px;
 }
 
-.rodape__links {
+.lista__itens {
+  text-align: center;
+
+  margin: 1em 0;
+}
+
+.item {
   text-decoration: none;
 
   font-size: 16px;
   font-weight: 500;
   color: var(--cor-cinza);
-  
-  margin: 1em 0;
 }
 
 .rodape__fale-conosco {
-  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+  
+  margin: 1em auto;
 }
 
 .fale-conosco__titulo {
@@ -53,16 +64,16 @@
   width: 100%;
 }
 
-.fale-conosco__input--nome {
-  height: 56px;
+.fale-conosco__input {
+  width: 328px;
 }
 
-.fale-conosco__input--mensagem {
-  height: 82px;
+.fale-conosco__input::placeholder {
+  padding: .5em 1em;
 }
 
 .fale-conosco-btn {
-  width: auto;
+  width: 45%;
 }
 
 .rodape__desenvolvedor {
@@ -78,4 +89,29 @@
   font-size: 16px;
   font-weight: 500;
   color: var(--cor-cinza);
+}
+
+
+
+/*? Responsividade Tablet 768px */
+@media screen and (min-width: 768px) {
+  .container__rodape {
+    flex-direction: row;
+  }
+
+  .lista__itens {
+    text-align: left;
+  }
+
+  .rodape__fale-conosco {
+    
+  }
+
+  .fale-conosco__input {
+    width: 434px;
+  }
+
+  .rodape__institucional {
+    margin: 0 2em;
+  }
 }

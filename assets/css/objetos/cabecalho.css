@@ -3,7 +3,48 @@
   margin: 0 1em;
 }
 
+.cabecalho__barra-pesquisa {
+  display: none;
+}
+
 .cabecalho__login-btn {
   padding: 1em .75em;
   width: 45%;
+}
+
+
+
+/*? Responsividade Tablet 768px */
+@media screen and (min-width: 768px) {
+  .container__cabecalho--bara-de-pesquisa {
+    display: flex;
+    
+    width: 70%;
+  }
+  
+  .cabecalho__login-btn {
+    width: 25%;
+  }
+
+  .cabecalho__barra-de-pesquisa {
+    display: none;
+  }
+
+  .cabecalho__barra-pesquisa {
+    display: block;
+
+    border: transparent;
+    border-radius: 50px;
+
+    background-color: var(--cor-barra-de-pesquisa);
+
+    padding: 1em;
+    margin-left: 2em;
+    width: 50%;
+  }
+
+  #barra-pesquisa::placeholder {
+    background: url("../../img/icones/icone-lupa.svg") no-repeat;
+    background-position: 92% 50%;
+  }
 }
