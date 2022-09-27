@@ -36,10 +36,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .banner {
-    background-size: auto;
-  }
-
   .banner__textos--titulo {
     font-size: 52px;
     margin-top: 2em;
@@ -55,5 +51,12 @@
 
   .banner__promocao-btn {
     width: 15%;
+  }
+}
+
+/*? Responsividade Tablet 1440px */
+@media screen and (min-width: 1440px) {
+  .container__banner {
+    margin: 0 10%;
   }
 }

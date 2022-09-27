@@ -81,7 +81,7 @@
   
   text-align: center;
 
-  padding: 6.375em 2em;
+  padding: 3.375em 2em;
 }
 
 .desenvolvedor__texto {
@@ -103,10 +103,6 @@
     text-align: left;
   }
 
-  .rodape__fale-conosco {
-    
-  }
-
   .fale-conosco__input {
     width: 434px;
   }
@@ -114,4 +110,33 @@
   .rodape__institucional {
     margin: 0 2em;
   }
+}
+
+
+/*? Responsividade Desktop 1440px */
+@media screen and (min-width: 1440px) {
+  .container__rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1em 10%;
+  }
+  
+  .rodape__logo {
+    margin: 0 5em 40% auto;
+  }
+
+  .rodape__institucional {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rodape__fale-conosco {
+    margin: 0;
+  }
+  
+  .fale-conosco__input {
+    width: 560px;
+  }
+
 }

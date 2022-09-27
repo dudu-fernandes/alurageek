@@ -36,13 +36,9 @@
   gap: 1em;
 
   margin-bottom: 1em;
+  width: 100%;
 }
 
-/* TODO - Layout mobile os cards 5 e 6 não aparecem */
-.card:nth-child(5),
-.card:nth-child(6) {
-  display: none;
-}
 
 
 /*? Responsividade Tablet 768px */
@@ -55,8 +51,7 @@
 
 /*? Responsividade Desktop 1440px*/
 @media screen and (min-width: 1440px) {
-  .card:nth-child(5),
-  .card:nth-child(6) {
-    display: block;
+  .container__conteudo {
+    margin: 0 10%;
   }
 }

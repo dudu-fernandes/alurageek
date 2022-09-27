@@ -48,3 +48,15 @@
     background-position: 92% 50%;
   }
 }
+
+
+/*? Responsividade Tablet 1440px */
+@media screen and (min-width: 1440px) {
+  .container__cabecalho {
+    margin: 0 10em;
+  }
+
+  .cabecalho__login-btn {
+    width: 20%;
+  }
+}

@@ -50,7 +50,7 @@
   font-weight: 600;
 
   background-color: transparent;
-  border: 2px solid var(--cor-azul);
+  border: 1px solid var(--cor-azul);
 
   color: var(--cor-azul);
 }
