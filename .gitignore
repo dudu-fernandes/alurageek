@@ -1,2 +1,7 @@
+# Pastas
 /.vscode
-backups/
+/backups
+/node_modules
+
+# Arquivos
+package-lock.json

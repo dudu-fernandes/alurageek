@@ -1,0 +1,22 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Projeto referente ao challenger da Alura com o objetivo de desenvolver um e-commerce para o Alura Geek.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudu-fernandes/alurageek.git"
+  },
+  "author": "Washington Luís Fernandes (Dudu Fernandes)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudu-fernandes/alurageek/issues"
+  },
+  "homepage": "https://github.com/dudu-fernandes/alurageek#readme",
+  "dependencies": {
+    "lit": "^2.3.1"
+  }
+}
