@@ -46,7 +46,7 @@
   }
 
   .container__banner {
-    padding: 2em;
+    padding: 3em;
   }
 
   .banner__promocao-btn {
@@ -57,6 +57,6 @@
 /*? Responsividade Tablet 1440px */
 @media screen and (min-width: 1440px) {
   .container__banner {
-    margin: 0 10%;
+    margin: 0 8em;
   }
 }

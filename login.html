@@ -5,16 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="../assets/img/fav-icone-alurageek.svg" type="image/x-icon">
-  <title>LOGIN | AluraGeek</title>
-  <link rel="stylesheet" href="../assets/css/base/style.css">
+  <link rel="shortcut icon" href="./assets/img/fav-icone-alurageek.svg" type="image/x-icon">
+  <title>HOME | AluraGeek</title>
+  <link rel="stylesheet" href="./assets/css/base/style.css">
 </head>
-  
+
 <body>
   <header class="cabecalho">
     <div class="container container__cabecalho">
       <div class="container__cabecalho--bara-de-pesquisa">
-        <img src="../assets/img/Logo-alurageek-completo.svg" alt="AluraGeek" class="cabecalho__logo">
+        <a href="./index.html" class="cabecalho__logo">
+          <img src="./assets/img/Logo-alurageek-completo.svg" alt="AluraGeek">
+        </a>
         <input type="text" class="cabecalho__barra-pesquisa" name="barra-pesquisa" id="barra-pesquisa"
           placeholder="O que deseja encontrar?">
       </div>
@@ -22,13 +24,16 @@
     </div>
   </header>
 
-  <section class="login">
-    <div class="login__container">
-      <h2 class="container__titulo">Iniciar Sessão</h2>
-      <input type="email" name="" id="">
-      <input type="password" name="" id="">
-    </div>
-  </section>
+  <main>
+    <section class="login">
+      <div class="container container__login">
+        <h2 class="container__login--titulo">Iniciar Sessão</h2>
+        <input type="email" name="" id="input-usuario" class="container__login--email" placeholder="Escreva o seu e-mail">
+        <input type="password" name="" id="input-usuario" class="container__login--senha" placeholder="Escreva a sua senha">
+        <a href="#" class="login__botao botao botao__negrito--azul">Entrar</a>
+      </div>
+    </section>
+  </main>
 
   <footer class="rodape">
     <div class="container__rodape">
@@ -59,10 +64,19 @@
       <div class="rodape__fale-conosco">
         <!-- Textos -->
         <h3 class="fale-conosco__titulo">Fale conosco</h3>
-        <textarea class="fale-conosco__input fale-conosco__input--nome" id="" cols="1" rows="3" placeholder="Nome"></textarea>
-        <textarea class="fale-conosco__input fale-conosco__input--mensagem" id="" cols="1" rows="5" placeholder="Escreva a sua mensagem"></textarea>
+        
+        <div class="fale-conosco__container">
+          <label for="" class="container__titulo">Nome</label>
+          <input type="text" class="container__entrada" name="" id="">
+        </div>
+
+        <div class="fale-conosco__container">
+          <label for="" class="container__titulo">Escreva a sua mensagem</label>
+          <textarea class="container__entrada" name="" id="" cols="1" rows="2"></textarea>
+        </div>
+
         <!-- Botão -->
-        <input type="button" class="fale-conosco-btn botao botao__negrito--azul" value="Enviar mensagem">
+        <a href="#" class="fale-conosco-btn botao botao__negrito--azul">Enviar mensagem</a>
       </div>
     </div>
 

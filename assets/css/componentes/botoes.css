@@ -8,7 +8,7 @@
   color: var(--cor-branca);
 
   padding: 1em;
-  width: 100%;
+  width: calc(100% - 2em);
 }
 
 /* 4 variantes para os botões c/ font-weight 400 */

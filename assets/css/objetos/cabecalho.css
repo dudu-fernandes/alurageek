@@ -1,6 +1,5 @@
 .container__cabecalho {
-  padding: 1em;
-  margin: 0 1em;
+  padding: 1em 1em;
 }
 
 .cabecalho__barra-pesquisa {
@@ -12,10 +11,16 @@
   width: 45%;
 }
 
-
+.cabecalho__logo {
+  display: flex;
+}
 
 /*? Responsividade Tablet 768px */
 @media screen and (min-width: 768px) {
+  .container__cabecalho {
+    padding: 1em 3em;
+  }
+  
   .container__cabecalho--bara-de-pesquisa {
     display: flex;
     
@@ -53,7 +58,7 @@
 /*? Responsividade Tablet 1440px */
 @media screen and (min-width: 1440px) {
   .container__cabecalho {
-    margin: 0 10em;
+    padding: 1em 11em;
   }
 
   .cabecalho__login-btn {
