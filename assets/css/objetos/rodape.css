@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   align-items: center;
 
-  margin: 1em;  
+  margin: 1em;
 }
 
 .rodape__institucional {
@@ -21,12 +21,13 @@
 
 .rodape__logo {
   width: 174px;
+  margin: 1em 0;
 }
 
 .lista__itens {
   text-align: center;
 
-  margin: 1em 0;
+  margin-bottom: 2em;
 }
 
 .item {
@@ -40,45 +41,50 @@
 .rodape__fale-conosco {
   display: flex;
   flex-direction: column;
-  
+
   margin: 1em auto;
-}
-
-.fale-conosco__titulo {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--cor-cinza);
-
-  margin-top: 1em;
-}
-
-.fale-conosco__input {
-  border: transparent;
-  border-radius: 5px;
-
-  border-bottom: 2px solid #C8C8C8;
-  
-  margin: .5em 0;
-  padding: .5em 0;
-
   width: 100%;
 }
 
-.fale-conosco__input {
-  width: 328px;
+.fale-conosco__titulo {
+  font-weight: 700;
 }
 
-.fale-conosco__input::placeholder {
-  padding: .5em 1em;
+.fale-conosco__container {
+  display: flex;
+  flex-direction: column;
+
+  margin: .5em 0;
 }
 
-.fale-conosco-btn {
-  width: 45%;
+.container__titulo {
+  background-color: var(--cor-branca);
+
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--cor-cinza-claro);
+
+  border: 1px solid var(--cor-branca);
+  border-radius: 4px 4px 0 0;
+
+  height: 14px;
+  padding: 1em;
+}
+
+.container__entrada {
+  border: 1px solid var(--cor-branca);
+  border-radius: 0 0 4px 4px;
+
+  padding: 1em;
+}
+
+.sombra {
+  border-bottom: 2px solid #C8C8C8;
 }
 
 .rodape__desenvolvedor {
   background-color: var(--cor-branca);
-  
+
   text-align: center;
 
   padding: 3.375em 2em;
@@ -103,6 +109,15 @@
     text-align: left;
   }
 
+  .rodape__logo {
+    margin: 1em 0;
+  }
+
+  .rodape__fale-conosco {
+    margin: 1em;
+    width: calc(100% - 19em);
+  }
+
   .fale-conosco__input {
     width: 434px;
   }
@@ -121,20 +136,22 @@
     justify-content: space-evenly;
     margin: 1em 10%;
   }
-  
+
   .rodape__logo {
-    margin: 0 5em 40% auto;
+    margin: 0 5em;
   }
 
   .rodape__institucional {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .rodape__fale-conosco {
-    margin: 0;
+    margin: 1em;
+    width: calc(100% - 40em);
   }
-  
+
   .fale-conosco__input {
     width: 560px;
   }

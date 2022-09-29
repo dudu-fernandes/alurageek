@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="shortcut icon" href="../assets/img/fav-icone-alurageek.svg" type="image/x-icon">
+  <title>LOGIN | AluraGeek</title>
+  <link rel="stylesheet" href="../assets/css/base/style.css">
 </head>
-<body>
   
+<body>
+  <header class="cabecalho">
+    <div class="container container__cabecalho">
+      <div class="container__cabecalho--bara-de-pesquisa">
+        <img src="../assets/img/Logo-alurageek-completo.svg" alt="AluraGeek" class="cabecalho__logo">
+        <input type="text" class="cabecalho__barra-pesquisa" name="barra-pesquisa" id="barra-pesquisa"
+          placeholder="O que deseja encontrar?">
+      </div>
+      <img src="./assets/img/icones/icone-lupa.svg" alt="Pesquisar produtos" class="cabecalho__barra-de-pesquisa">
+    </div>
+  </header>
+
+  <section class="login">
+    <div class="login__container">
+      <h2 class="container__titulo">Iniciar Sessão</h2>
+      <input type="email" name="" id="">
+      <input type="password" name="" id="">
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="container__rodape">
+      <div class="rodape__institucional">
+        <img src="./assets/img/Logo-alurageek-completo.svg" alt="AluraGeek" class="rodape__logo">
+        <ul class="rodape__lista">
+          <li class="lista__itens">
+            <a href="#" class="item">Quem somos nós</a>
+          </li>
+          <li class="lista__itens">
+            <a href="#" class="item">Política de privacidade</a>
+          </li>
+          <li class="lista__itens">
+            <a href="#" class="item">Programa fidelidade</a>
+          </li>
+          <li class="lista__itens">
+            <a href="#" class="item">Nossas lojas</a>
+          </li>
+          <li class="lista__itens">
+            <a href="#" class="item">Quero ser franqueado</a>
+          </li>
+          <li class="lista__itens">
+            <a href="#" class="item">Anuncie aqui</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="rodape__fale-conosco">
+        <!-- Textos -->
+        <h3 class="fale-conosco__titulo">Fale conosco</h3>
+        <textarea class="fale-conosco__input fale-conosco__input--nome" id="" cols="1" rows="3" placeholder="Nome"></textarea>
+        <textarea class="fale-conosco__input fale-conosco__input--mensagem" id="" cols="1" rows="5" placeholder="Escreva a sua mensagem"></textarea>
+        <!-- Botão -->
+        <input type="button" class="fale-conosco-btn botao botao__negrito--azul" value="Enviar mensagem">
+      </div>
+    </div>
+
+    <div class="rodape__desenvolvedor">
+      <a href="https://www.linkedin.com/in/washingtonluisfernandes/" class="desenvolvedor__texto">
+        Desenvolvido por Washington Luís Fernandes, 2022
+      </a>
+    </div>
+
+  </footer>
 </body>
+
 </html>
