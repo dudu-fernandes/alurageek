@@ -58,7 +58,11 @@
 /*? Responsividade Tablet 1440px */
 @media screen and (min-width: 1440px) {
   .container__cabecalho {
-    padding: 1em 11em;
+    padding: 1em 11.5vw;
+  }
+
+  .imagem-logo {
+    width: 10em;
   }
 
   .cabecalho__login-btn {
