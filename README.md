@@ -1,4 +1,4 @@
-<h1><img src="./assets/img/Logo-alurageek-completo.svg" width="250px"></h1>
+<h1><a href="https://alurageek-gamma.vercel.app/"><img src="./assets/img/Logo-alurageek-completo.svg" width="250px"></a></h1>
 
 # Challenger Front-End - 5ª edição
 
@@ -36,7 +36,7 @@ Feito a pequena sinopse para situar o leitor, o desafio exige alguns requisitos 
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-Para realizar o deploy eu estou usando o Vercel para hospedar a página. Caso queira visualizar como ela está atualmente basta [clicar aqui](alurageek-gamma.vercel.app)
+Para realizar o deploy eu estou usando o Vercel para hospedar a página. Caso queira visualizar como ela está atualmente basta [clicar aqui](https://alurageek-gamma.vercel.app/)
 
 
 ### Primeira semana
