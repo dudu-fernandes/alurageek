@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/img/fav-icone-alurageek.svg" type="image/x-icon">
+  <title>HOME | AluraGeek</title>
+  <link rel="stylesheet" href="./assets/css/base/style.css">
+</head>
+
+<body>
+  <header class="cabecalho">
+    <div class="container container__cabecalho">
+      <div class="container__cabecalho--bara-de-pesquisa">
+        <a href="./index.html" class="cabecalho__logo">
+          <img src="./assets/img/Logo-alurageek-completo.svg" alt="AluraGeek" class="imagem-logo">
+        </a>
+        <input type="text" class="cabecalho__barra-pesquisa" name="barra-pesquisa" id="barra-pesquisa"
+          placeholder="O que deseja encontrar?">
+      </div>
+      <a href="./login.html" class="cabecalho__login-btn botao botao__negrito--transparente">Menu administrador</a>
+      <img src="./assets/img/icones/icone-lupa.svg" alt="Pesquisar produtos" class="cabecalho__barra-de-pesquisa">
+    </div>
+  </header>
+
+  <main>
+    <section class="produtos">
+      <div class="container container__produtos-adicionar">
+        <h2 class="container__produtos-adicionar--titulo">Adicionar novos produtos</h2>
+        <div class="container__campos">
+          <label for="" class="campo__titulo">URL da imagem</label>
+          <input type="url" name="link-imagem" id="" class="campo__entrada">
+          
+          <label for="" class="campo__titulo">Categoria</label>
+          <select name="" id="" class="campo__entrada campo__entrada--seletor">
+            <option value="">Selecione uma categoria</option>
+            <option value="star-wars">Star Wars</option>
+            <option value="consoles">Consoles</option>
+            <option value="diversos">Diversos</option>
+          </select>
+
+          <label for="" class="campo__titulo">Nome do produto</label>
+          <input type="text" name="nome-produto" id="" class="campo__entrada">
+          
+          <label for="" class="campo__titulo">Preço do produto</label>
+          <input type="text" name="nome-produto" id="" class="campo__entrada">
+          
+          <label for="" class="campo__titulo">Descrição</label>
+          <textarea name="descricao" id="" cols="1" rows="3" class="campo__entrada"></textarea>
+        </div>
+        <a href="./produtos.html" class="botao botao--azul">Adicionar produto</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container__rodape">
+      <div class="container__rodape--institucional">
+        <img src="./assets/img/Logo-alurageek-completo.svg" alt="AluraGeek" class="rodape__logo">
+          <ul class="rodape__lista">
+            <li class="lista__itens">
+              <a href="#" class="item">Quem somos nós</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#" class="item">Política de privacidade</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#" class="item">Programa fidelidade</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#" class="item">Nossas lojas</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#" class="item">Quero ser franqueado</a>
+            </li>
+            <li class="lista__itens">
+              <a href="#" class="item">Anuncie aqui</a>
+            </li>
+          </ul>
+      </div>
+        
+      <div class="rodape__fale-conosco">
+        <!-- Textos -->
+        <h3 class="fale-conosco__titulo">Fale conosco</h3>
+        
+        <div class="fale-conosco__container">
+          <label for="" class="container__titulo">Nome</label>
+          <input type="text" class="container__entrada" name="" id="">
+        </div>
+
+        <div class="fale-conosco__container">
+          <label for="" class="container__titulo">Escreva a sua mensagem</label>
+          <textarea class="container__entrada" name="" id="" cols="1" rows="2"></textarea>
+        </div>
+
+        <!-- Botão -->
+        <a href="#" class="fale-conosco-btn botao botao__negrito--azul">Enviar mensagem</a>
+      </div>
+    </div>
+
+    <div class="rodape__desenvolvedor">
+      <a href="https://www.linkedin.com/in/washingtonluisfernandes/" class="desenvolvedor__texto">
+        Desenvolvido por Washington Luís Fernandes, 2022
+      </a>
+    </div>
+
+  </footer>
+</body>
+
+</html>
