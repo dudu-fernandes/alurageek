@@ -23,11 +23,9 @@
 
 
 /* TODO - Layout mobile os cards 5 e 6 não aparecem */
-.card:nth-child(5),
-.card:nth-child(6) {
+.card--oculto {
   display: none;
 }
-
 
 .card__imagem {
   margin-bottom: .5em;
