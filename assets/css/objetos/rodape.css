@@ -99,6 +99,7 @@
 @media screen and (min-width: 768px) {
   .container__rodape {
     flex-direction: row;
+    justify-content: space-between;
 
     padding: 1em 3em;
   }
@@ -132,8 +133,15 @@
     padding: 1em 12vw;
   }
 
+  .container__rodape--institucional {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 8vw;
+  }
+
   .rodape__lista {
-    padding-top: 1em;
+    margin-top: 1em;
   }
 
   .rodape__fale-conosco {

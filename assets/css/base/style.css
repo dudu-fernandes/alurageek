@@ -19,8 +19,8 @@
 @import url("../objetos/rodape.css");
 /* ? Página login */
 @import url("../objetos/login.css");
-
-
+/* ? Página produtos */
+@import url("../objetos/produtos.css");
 
 
 
@@ -45,8 +45,6 @@ body {
   font-family: var(--fonte-padrao);
   font-size: var(--tamanho-fonte);
   color: var(--cor-cinza);
-
-  background-color: var(--cor-branca);
 }
 
 .container {
@@ -54,4 +52,8 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+main {
+  background: var(--cor-barra-de-pesquisa);
 }

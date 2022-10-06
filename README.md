@@ -17,6 +17,7 @@ Feito a pequena sinopse para situar o leitor, o desafio exige alguns requisitos 
 - E em cada semana, trabalhar com organização e fluxo de atividades usando o Trello.
 
 ---
+
 ## Imagens do projeto
 
 |Mobile - Home|Mobile - Login|
@@ -32,6 +33,7 @@ Feito a pequena sinopse para situar o leitor, o desafio exige alguns requisitos 
 |![Home](./assets/img/projeto/desktop/Home.png)|![Login](./assets/img/projeto/desktop/Home%20-%20login.png)|
 
 ---
+
 ## Status do projeto
 
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -40,6 +42,7 @@ Para realizar o deploy eu estou usando o Vercel para hospedar a página. Caso qu
 
 
 ### Primeira semana
+
 ![Status: desenvolvido](https://img.shields.io/badge/STATUS-Desenvolvido-success)
 
 *Dos dias 26 a 30 de Setembro de 2022*
