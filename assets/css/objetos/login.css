@@ -63,7 +63,7 @@
   .login__botao {
     font-size: 18px;
 
-    width: calc(100% - 2em);
+    width: 100%;
     margin: 1em;
   }
 }
