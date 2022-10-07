@@ -25,14 +25,14 @@
   </header>
 
   <main>
-    <section class="login">
+    <form class="login">
       <div class="container container__login">
         <h2 class="container__login--titulo">Iniciar Sessão</h2>
-        <input type="email" name="" id="input-usuario" class="container__login--email" placeholder="Escreva o seu e-mail">
-        <input type="password" name="" id="input-usuario" class="container__login--senha" placeholder="Escreva a sua senha">
-        <a href="./produtos.html" class="login__botao botao botao__negrito--azul">Entrar</a>
+        <input required type="email" name="email" id="email"  class="container__login--email" placeholder="Escreva o seu e-mail">
+        <input required type="password" name="password" id="password"  class="container__login--senha" placeholder="Escreva a sua senha">
+        <button class="login__botao botao botao__negrito--azul">Entrar</button>
       </div>
-    </section>
+    </form>
   </main>
 
   <footer class="rodape">
@@ -87,6 +87,8 @@
     </div>
 
   </footer>
+
+  <script src="js/login.js"></script>
 </body>
 
 </html>
