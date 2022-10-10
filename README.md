@@ -75,11 +75,43 @@ Para realizar o deploy eu estou usando o Vercel para hospedar a página. Caso qu
 
 ### Segunda semana
 
-![Status: em desenvolvimento](https://img.shields.io/badge/STATUS-Em%20desenvolvimento-blue)
+![Status: desenvolvido](https://img.shields.io/badge/STATUS-Desenvolvido-success)
+
+*Dos dias 3 a 7 de Outubro de 2022*
+
+ 🎯 **Objetivos**
+
+*Página de produtos*
+
+- Desenvolver uma lista de todos os produtos;
+- Desenvolver uma página com a descrição de cada produto;
+- Criar uma sessão de produtos similares em cada página de descrição do produto.
+
+>✍ **Minha opinião**
+>
+>Nesta segunda semana o trabalho foi mais simples do que a primeira, pois muito do que já tinha sido desenvolvido pode ser reaproveitado para criar as novas páginas e sessões.
+>
+>Em grande parte dos devs que estão participando do challenger terminaram de desenvolver os objetivos dessa segunda semana em menos de 2 dias. Eu mesmo concluir sem dificuldades dentro desse tempo.
+>
+>Aproveitei também nessa semana para polir o código html e css em algumas partes. Hoje a página de login exige que seja inserido um e-mail e senha para prosseguir para páginas futuras, entretanto ainda não foi implementado uma autenticação do usuário, algo que será desenvolvido e trabalhado a fundo nas semanas 3 e 4.
+---
 
 ### Terceira semana
 
 ![Status: em desenvolvimento](https://img.shields.io/badge/STATUS-Em%20desenvolvimento-blue)
+
+*Dos dias 3 a 7 de Outubro de 2022*
+
+ 🎯 **Objetivos**
+
+🔥 *The hell week with JavaScript!*
+
+- Implementar uma verificação e autenticação do usuário;
+- Transformar todo o conteúdo da página em dinâmico.
+
+>✍ **Minha opinião**
+> 
+>Sem muitos comentarios agora, mas essa e a última semana prometem ser umas das mais desafiadoras e enriquecedoras no quesito de conhecimento. Sem muitos detalhes agora mas irei descrever futuramente as dificuldades e estatus atual do projeto aqui. *#BoraTrabalhar!*
 
 ### Quarta semana
 
